@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Login Page - CodeCraftedWeb</title>
+
+    <!--========== CSS File ==========-->
+    <link rel="stylesheet" href="/log/log.css">
+
+    <!--========== Favicon ==========-->
+    <link rel="shortcut icon" href="/Images/favicon.ico" type="image/x-icon">
+
+    <!--========== Remixicon ==========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--========== Header ==========-->
+    <header class="spotify-header">
+        <!--===== Nav =====-->
+        <nav class="spotify-nav">
+            <i class="ri-spotify-fill logo"></i>
+            <span class="head-txt">Spotify</span>
+        </nav>
+    </header>
+
+    <!--========== Main Content ==========-->
+    <main class="main-content">
+        <!--===== Login Container =====-->
+        <div class="login-container">
+            <div class="login-head">
+                <h1>Iniciar Sesión en Spotify</h1>
+            </div>
+
+            <div class="login-options">
+                <div class="google">
+                    <img src="/img/logos/google.png" alt="g">
+                    <h3>Continuar con Google</h3>
+                </div>
+
+                <div class="facebook">
+                    <img src="/img/logos/facebook.png" alt="f">
+                    <h3>Continuar con Facebook</h3>
+                </div>
+
+                <div class="apple">
+                    <img src="/img/logos/apple.png" alt="a">
+                    <h3>Continuar con Apple</h3>
+                </div>
+
+                <div class="mobile">
+                    <h3>Continuar con tu número de teléfono</h3>
+                </div>
+            </div>
+
+            <div class="login-content">
+                <div class="email-input-box">
+                    <label for="email" class="email-label">Email o nombre de usuario</label>
+                    <input type="email" class="email-input" placeholder="Email o nombre de usuario" required>
+                </div>
+
+                <div class="password-input-box">
+                    <label for="password" class="password-label">Contraseña</label>
+                    <div class="pass-div">
+                        <input type="password" class="password-input" placeholder="Contraseña">
+                        <i class="ri-eye-off-line pass-toggle"></i>
+                    </div>
+                </div>
+
+                <div class="login-button">
+                    <button type="submit" class="login-btn">Iniciar Sesion</button>
+                </div>
+
+                <div class="forgot">
+                    <a href="#" class="forgot-txt">¿Olvidaste tu contraseña?</a>
+                </div>
+            </div>
+
+            <div class="signUp">
+                <span class="signUp-txt">¿No tenés una cuenta? <a href="#">Registrate en Spotify</a></span>
+            </div>
+        </div>
+    </main>
+
+    <!--========== Footer ==========-->
+    <footer class="footer">
+        <span class="footer-txt">Este sitio está protegido por reCAPTCHA y se aplican la<a href="#"> Política de privacidad</a> y <a href="#">los Términos de servicio</a> de Google.</span>
+    </footer>
+</body>
+</html>

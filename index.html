@@ -4,45 +4,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reproductor web spotify: Música para todo el mundo</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Reproductor web Spotify: Música para todo el mundo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="script.js">
 </head>
 
 <body>
+  <!-- Sidebar -->
   <div class="sidebar">
     <div class="sidebar-nav">
+      <!-- Logo -->
       <div class="logo">
-        <a href=""></a>
+        <a href="#"><img src="img/spot.png" alt="Spotify Logo"></a>
       </div>
 
-
-
-
+      <!-- Navigation Links -->
       <ul>
-        <li><a href="">
+        <li><a href="#">
             <span><i class="fa-solid fa-house"></i></span>
             <span>Inicio</span>
-          </a>
-        </li>
-
-        <li><a href="">
+          </a></li>
+        <li><a href="#">
             <span><i class="fa-solid fa-magnifying-glass"></i></span>
             <span>Buscar</span>
-          </a>
-        </li>
+          </a></li>
       </ul>
     </div>
 
-
     <div class="sidebar-nav box2">
-
       <ul>
-        <li><a href="">
-            <span><i class="fa-solid fa-book"></i></i></span>
+        <li><a href="#">
+            <span><i class="fa-solid fa-book"></i></span>
             <span class="library">Tu biblioteca</span>
-          </a>
-        </li>
-
+          </a></li>
         <li>
           <div class="sidebar-scroll">
             <div class="create-playlist">
@@ -59,78 +53,115 @@
         </li>
       </ul>
 
+      <!-- Privacy Links -->
       <div class="privacy">
         <ul>
           <li>
-            <a href="">Legal</a>
-            <a href="">Seguridad y Centro de Privacidad</a>
+            <a href="#">Legal</a>
+            <a href="#">Seguridad y Centro de Privacidad</a>
           </li>
           <li>
-            <a href="">Polltica de Privacidad</a>
-            <a href="">Cookies</a>
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Cookies</a>
           </li>
           <li>
-            <a href="">Acerca de los anuncios</a>
-            <a href="">Accesibilidad</a>
-            <a href="">Cookies</a>
+            <a href="#">Acerca de los anuncios</a>
+            <a href="#">Accesibilidad</a>
+            <a href="#">Cookies</a>
           </li>
         </ul>
       </div>
 
-
+      <!-- Language Button -->
       <div class="lng-btn">
-        <button>Español(Argentina)</button>
+        <button>Español (Argentina)</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Section -->
+  <div class="main-section">
+    <div class="top-nav">
+      <!-- Navigation Buttons -->
+      <div class="prev-btn">
+        <button><i class="fa-solid fa-arrow-left"></i></button>
+        <button><i class="fa-solid fa-arrow-right"></i></button>
       </div>
 
+      <!-- Login/Registration Buttons -->
+      <div class="login-btn">
+        <a href="reg/reg.html"><button class="register">Registrarse</button></a>
+        <a href="log/log.html"><button class="login">Iniciar Sesión</button></a>
+      </div>
     </div>
 
+    <!-- Spotify Playlists -->
+    <div class="spotify-playlist">
+      <h2>Álbumes populares</h2>
+      <div class="card">
+        <!-- Album Item -->
+        <div class="item">
+          <img src="img/bestalbum/trueno.jfif" alt="EL ÚLTIMO BAILE by Trueno">
+          <div class="play-btn">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h4>EL ÚLTIMO BAILE</h4>
+          <p>Trueno</p>
+        </div>
 
+        <!-- Repeat for other album items -->
+        <div class="item">
+          <img src="img/bestalbum/miloj.jfif" alt="166 by Milo J">
+          <div class="play-btn">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h4>166</h4>
+          <p>Milo J</p>
+        </div>
 
+        <div class="item">
+          <img src="img/bestalbum/luckra.jfif" alt="QUE NOS FALTE TODO by Luck Ra">
+          <div class="play-btn">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h4>QUE NOS FALTE TODO</h4>
+          <p>Luck Ra</p>
+        </div>
 
+        <div class="item">
+          <img src="img/bestalbum/badb.jfif" alt="Un Verano Sin Ti by Bad Bunny">
+          <div class="play-btn">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h4>Un Verano Sin Ti</h4>
+          <p>Bad Bunny</p>
+        </div>
+
+        <div class="item">
+          <img src="img/bestalbum/emi.jfif" alt=".mp3 by Emilia">
+          <div class="play-btn">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h4>.mp3</h4>
+          <p>Emilia</p>
+        </div>
+
+        <div class="item">
+          <img src="img/bestalbum/vmerlo.jfif" alt="Valentino Merlo, The La Planta by Hoy">
+          <div class="play-btn">
+            <span><i class="fa-solid fa-play"></i></span>
+          </div>
+          <h4>Valentino Merlo, The La Planta</h4>
+          <p>Hoy</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Repeat the Spotify Playlists section as needed -->
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--Seccion Principal-->
-<div class="main-section">
-  <div class="top-nav">
-    <div class="prev-btn">
-      <button><i class="fa-solid fa-arrow-left"></i></button>
-      <button><i class="fa-solid fa-arrow-right"></i></button>
-    </div>
-
-    <div class="login-button">
-      <button class="register">Registrarse</button>
-      <button class="login">Iniciar Sesion</button>
-    </div>
-  </div>
-</div>
-
-
-
-
-
+  <!-- Font Awesome Script -->
   <script src="https://kit.fontawesome.com/7203731242.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
