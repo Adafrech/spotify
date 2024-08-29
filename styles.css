@@ -273,7 +273,7 @@ background-color: #3d3c3c;
 .footer-section .footer{
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .footer-section .footer .footer-links{
   display: flex;
@@ -293,4 +293,73 @@ background-color: #3d3c3c;
 .footer-section .footer .footer-links ul {
   list-style: none;
   margin: 6px 0;
+}
+.footer-section .footer .footer-links ul li a{
+  text-decoration: none;
+  color: #969393;
+  font-size: 14px;
+  cursor: pointer;
+ }
+ .footer-section .footer .footer-links ul li a:hover{
+  text-decoration: underline;
+  color: #fff;
+  
+ }
+ .footer .social-links i{
+  color: #fff;
+  background: #353434;
+  padding: 12px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.footer .social-links i:hover{
+  
+  background: #636262;
+  
+}
+hr{
+  margin: 20px 40px;
+  border: 0;
+  outline: 0;
+  border: 1px solid #575656;
+  margin-top: 40px;
+}
+.copy{
+  padding: 0 40px;
+  color: #969393;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.preview{
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px 40px;
+}
+
+.preview h4{
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.preview p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.preview button{
+  padding: 12px 30px;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
 }
