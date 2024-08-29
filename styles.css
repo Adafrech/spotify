@@ -18,10 +18,8 @@ body {
   transition: transform 0.3s ease;
 }
 @media only screen and (max-width: 767px) {
-  .body {
-    background-color: transparent;
-  }
-  .sidebar {
+
+  .body .sidebar  {
     display: none; /* Oculta la barra lateral en dispositivos móviles */
   }
 }
