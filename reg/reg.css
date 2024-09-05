@@ -31,7 +31,7 @@ body {
   }
   
   input[type="email"] {
-    width: 100%;
+    width: 90%;
     padding: 15px;
     margin-top: 10px;
     border-radius: 30px;
